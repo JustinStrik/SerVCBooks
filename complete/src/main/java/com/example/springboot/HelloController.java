@@ -22,17 +22,22 @@ public class HelloController {
 		return "Greetings from Spring Boot! testing changes";
 	}
 
-	@GetMapping("/book/")
-	public String getBooks() {
-		return "The book you want!";
+	@GetMapping("/books/")
+	public String book() {
+		return "Welcome to the main page! Working on frontend & input :)";
 	}
 
-	@GetMapping("/book/")
+	@GetMapping("/getbooks/")
+	public String getBooks() {
+		return "All the books you want!";
+	}
+
+	@GetMapping("/getbook/")
 	public String getBook() {
 		return "The book you want!";
 	}
 
-	@GetMapping("/book/")
+	@GetMapping("/createbook/")
 	public String createBook() {
 		return "Create new book";
 	}

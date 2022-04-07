@@ -1,2 +1,4 @@
+BookStorage.class
 com\example\springboot\Application.class
+Book.class
 com\example\springboot\HelloController.class
